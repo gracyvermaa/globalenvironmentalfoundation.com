@@ -17,7 +17,20 @@ const ContactSection = () => {
       toast.error("Please fill in all fields");
       return;
     }
-    toast.success("Thank you! Your message has been sent.");
+
+    // Build Gmail compose URL to open web Gmail compose with prefilled fields
+  const to = "globalenvironmentalfou@gmail.com,gogreenfou@gmail.com"; // recipients (primary + additional)
+    const subject = `Website message from ${form.name}`;
+    const body = `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+      to
+    )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open Gmail compose in a new tab. If the user isn't logged into Gmail, they will be prompted to sign in.
+    window.open(gmailUrl, "_blank");
+
+    // Optionally clear the form locally and show a toast indicating the compose window opened
+    toast.success("Opening Gmail compose...\nPlease send the message from your Gmail window.");
     setForm({ name: "", email: "", message: "" });
   };
 
