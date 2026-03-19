@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import scenePlanting from "@/assets/scene-planting.jpg";
 import sceneGreen from "@/assets/scene-green.jpg";
 import glassBottle from "@/assets/glass-bottle.jpg";
-import canvasBag from "@/assets/canvas-bag.jpg";
+import canvasBag from "@/assets/canvas-bag.png";
+import bag from "@/assets/bag.jpg";
 import bamboo from "@/assets/bamboo.jpg";
 import rainwater from "@/assets/rainwater.jpg";
 import litter from "@/assets/litter.jpg";
@@ -12,6 +13,7 @@ const images = [
   { src: glassBottle, alt: "Glass bottle distribution", span: "" },
   { src: sceneGreen, alt: "Environmental awareness campaign", span: "" },
   { src: canvasBag, alt: "Carry bag campaign", span: "" },
+  { src: bag, alt: "Reusable bag showcase", span: "" },
   { src: bamboo, alt: "Bamboo plantation drive", span: "md:col-span-2" },
   { src: rainwater, alt: "Rainwater harvesting project", span: "" },
   { src: litter, alt: "Plastic waste cleanup", span: "" },
