@@ -208,9 +208,9 @@ const CampaignsSection = () => {
               </blockquote>
               <TypingParagraph
                 text="Reusable glass bottles will be distributed publicly to reduce plastic waste. Each bottle carries the mission message, turning every user into an ambassador for environmental change.
-                Each branded bottle is produced using durable reusable glass with eco printing and campaign distribution support. A contribution of ₹149 per bottle helps cover responsible production, branding, and distribution for the Mission Zero Waste initiative."
+                Each branded bottle is produced using durable reusable glass with eco printing and campaign distribution support. A contribution of ₹149 – ₹157 per bottle helps cover responsible production, branding, and distribution for the Mission Zero Waste initiative."
                 highlights={[{
-                  phrase: "₹149 per bottle",
+                  phrase: "₹149 – ₹157 per bottle",
                   className: "inline-flex items-center px-2.5 py-0.5 rounded-full font-semibold text-sm",
                   style: { background: "#E8F5E9", color: "#4CAF50", boxShadow: "0 1px 4px hsla(130,70%,12%,0.08)" },
                 }]}
@@ -248,9 +248,9 @@ const CampaignsSection = () => {
                 </p>
               </div>
               <TypingParagraph
-                text="Free distribution of eco-friendly canvas cotton carry bags to reduce plastic bag usage across communities, markets, and public events. Each bag is crafted at ₹199 per piece to ensure quality fabric, eco printing, and wide distribution reach."
+                text="Free distribution of eco-friendly canvas cotton carry bags to reduce plastic bag usage across communities, markets, and public events. Each bag is crafted at ₹199 – ₹207 per piece to ensure quality fabric, eco printing, and wide distribution reach."
                 highlights={[{
-                  phrase: "₹199 per piece",
+                  phrase: "₹199 – ₹207 per piece",
                   className: "inline-flex items-center px-2.5 py-0.5 rounded-full font-semibold text-[0.95em]",
                   style: { background: "#E8F5E9", color: "#4CAF50", boxShadow: "0 1px 4px hsla(130,70%,12%,0.08)" },
                 }]}
